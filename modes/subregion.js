@@ -14,8 +14,8 @@ export default function ({ db, getRandomIds, rounds, checkLang }) {
 
     results.push({
       type: 'subregion',
-      subregion: good.subregion[checkLang],
-      correct: good.name[checkLang],
+      subregion: good.name[checkLang],
+      correct: good.subregion[checkLang],
       answers,
     })
   }
