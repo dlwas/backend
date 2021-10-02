@@ -10,12 +10,13 @@ export default function ({ db, getRandomIds, rounds, checkLang }) {
       .map((itemId) => [db[itemId].subregion[checkLang]])
       .map((item) => item[0])
 
-    const answers = getCleanArray([good.subregion[checkLang], ...randoms])
+    const correct = good.subregion[checkLang]
+    const answers = getCleanArray([correct, ...randoms])
 
     results.push({
       type: 'subregion',
       subregion: good.name[checkLang],
-      correct: good.subregion[checkLang],
+      correct,
       answers,
     })
   }
