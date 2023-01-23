@@ -1,20 +1,14 @@
 # Quiz Countries - Backend
 
-### Backend in progress
-
-## Live
-
-https://dlwas-quiz-backend.herokuapp.com/
-
 ## Parameters
 
 ##### Base path:
 
-`https://dlwas-quiz-backend.herokuapp.com/countries/mode`
+`[path-to-server]/countries/mode`
 
 ##### Default path:
 
-`https://dlwas-quiz-backend.herokuapp.com/countries/modes?mode=capital&rounds=5&difficulty=easy&lang=en`
+`[path-to-server]/countries/modes?mode=capital&rounds=5&difficulty=easy&lang=en`
 
 | Parameter  | Required | Choice                                      | Default   |
 | ---------- | -------- | ------------------------------------------- | --------- |
